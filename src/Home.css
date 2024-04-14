@@ -1,0 +1,29 @@
+.home-container{
+    display: flex;
+}
+.image-container{
+    background-image: url("./Images/signup.jpeg");
+    width: 200vh;
+    height: 90vh;
+    background-size: 100% 100%;
+    
+}
+.text-container{
+    max-width:500px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.text-container h2{
+    color: #374AA6;
+    
+}
+.text-container p{
+    color: #666666;
+}
+.text-container img{
+    width:450px ;
+    height: 200px;
+}
