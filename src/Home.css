@@ -3,8 +3,8 @@
 }
 .image-container{
     background-image: url("./Images/signup.jpeg");
-    width: 200vh;
-    height: 90vh;
+    width: 115vh;
+    height: 92vh;
     background-size: 100% 100%;
     
 }
@@ -14,7 +14,9 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .text-container h2{
     color: #374AA6;

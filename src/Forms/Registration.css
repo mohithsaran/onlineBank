@@ -4,8 +4,8 @@
 .image-signup-container{
     background-image: url("../Images/register.jpeg");
     background-size: 100% 100%;
-    width: 125vh;
-    height: 90vh;
+    width: 115vh;
+    height: 91vh;
 
 }
 .signup-text input{
@@ -32,9 +32,11 @@
 .signup-text{
     border: #374AA6 solid 1px;
     border-radius: 10px;
-    margin: 10px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .signup-text label{
     padding:5px;

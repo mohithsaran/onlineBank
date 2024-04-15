@@ -14,3 +14,12 @@ ul img{
   height: 35px;
   width: 40px;
 }
+.nav-link{
+  color:white;
+  text-decoration: none;
+
+}
+.navlink:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}

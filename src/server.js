@@ -53,6 +53,24 @@ app.post('/signup',async(req,res)=>{
 }
 )
 
+app.post('/login',async(req,res)=>{ 
+    try{
+        const {username,password}=req.body;
+        const customer= await customer.findOne(username);
+        if(!customer){
+            res.status(401).json({message:'User not found'});
+        }
+        if(customer.password!==password){
+            res.status(401).json({message:'Invalid password'});
+    }
+    res.status(200).json({message:'Login successful'});
+}
+    catch(err){
+        console.error(err);
+        res.status(500).json({message:'Server error'});
+    }
+})
+
 
 app.listen(port,()=>{
     console.log(`Server running on port ${port}`)
