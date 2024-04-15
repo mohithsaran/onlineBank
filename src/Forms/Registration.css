@@ -1,0 +1,42 @@
+.signup-container{
+    display: flex;
+}
+.image-signup-container{
+    background-image: url("../Images/register.jpeg");
+    background-size: 100% 100%;
+    width: 125vh;
+    height: 90vh;
+
+}
+.signup-text input{
+    border: #374AA6 solid 1px;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    margin: 5px;
+
+}
+.signup-text button{
+    border: #374AA6 solid 1px;
+    padding: 0.8vw 1vw;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.signup-text button:hover{
+    background-color: #374AA6;
+    color: white;
+}
+
+.signup-text{
+    border: #374AA6 solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.signup-text label{
+    padding:5px;
+}
+
